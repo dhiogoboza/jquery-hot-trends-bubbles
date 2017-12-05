@@ -1,3 +1,35 @@
 .htb-container {
-    
+    position: relative;
+}
+
+.htb-container .bubble {
+    background-color: #990000;
+    position: absolute;
+    border: 1px #888888 solid;
+    transition: background-color 500ms linear;
+    transition: z-index 100ms linear;
+    cursor: pointer;
+}
+
+.htb-container .bubble:hover {
+    background-color: #DD0000;
+    transition: background-color 500ms linear;
+    transition: z-index 500ms linear;
+    z-index: 100 !important;
+}
+
+.htb-container .bubble:hover span {
+    background-color: rgba(221, 0, 0, 0.4);
+}
+
+.htb-container .bubble span {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+
+    position: relative;
+    top: calc(50% - 12px);
 }
