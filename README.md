@@ -4,7 +4,7 @@
 A jQuery plugin to display bubbles with sizes relative to topics relevance.
 
 ## Screenshots
-![Alt text](/screenshots/screenshot01.png?raw=true "Screenshot 01")
+![Screenshot01](/screenshots/screenshot01.png?raw=true "Screenshot 01")
 
 ## Author
 Dhiogo Boza - dhiogoboza@gmail.com
@@ -28,6 +28,8 @@ Check `dist` folder for compiled code
 ```
 npm run test
 ```
+
+Opens a browser window and run unit test. Check [QUnit](http://qunitjs.com/) for details on how to write tests.
 
 ## Usage
 
